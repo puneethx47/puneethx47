@@ -1,7 +1,6 @@
 <div align="center">
 
 # 👋 Hi, I'm Puneeth R
-### 🚀 System Engineer Enthusiast
 
 ![](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=A970FF&center=true&vCenter=true&width=435&lines=Building+Microservices;Automating+the+Future;Crafting+Clean+Code)
 
