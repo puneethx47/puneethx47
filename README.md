@@ -39,30 +39,7 @@
 ## ⚡ Featured Projects
 
 <table>
-<tr>
-<td width="50%">
 
-<h3>🏦 Banking Microservices System</h3>
-
-A scalable distributed system environment modeling core banking operations across Accounts, Cards, and Lending services. Built using event-driven architecture with Kafka messaging and containerized deployment.
-
-<img src="https://img.shields.io/badge/Java_Core-ED8B00?style=flat-square" />
-<img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apache-kafka" />
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes" />
-
-</td>
-
-<td width="50%">
-
-<h3>🤖 Job Application Automation</h3>
-
-A workflow automation engine designed to streamline application tracking, background processing, and data management routines.
-
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring" />
-<img src="https://img.shields.io/badge/Automation-Gear-orange?style=flat-square" />
-
-</td>
-</tr>
 
 <tr>
 
