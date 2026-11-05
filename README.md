@@ -4,7 +4,7 @@
 
 ### Java Backend Engineer
 
-Building dependable backend systems for fintech and enterprise workflows.
+Java, Spring Boot, and thoughtful API design for fintech and enterprise systems.
 
 [Portfolio](https://puneethx47.github.io/portfolio/) &nbsp; · &nbsp; [LinkedIn](https://www.linkedin.com/in/puneethr47/) &nbsp; · &nbsp; [Email](mailto:puneethr1954@gmail.com)
 
@@ -17,9 +17,9 @@ Building dependable backend systems for fintech and enterprise workflows.
 
 ---
 
-I'm a software engineer based in **Bangalore, India**, with experience building **Java and Spring Boot services, fintech APIs, batch workflows, and enterprise integrations** at Sensei Technologies.
+I'm **Puneeth R**, a software engineer based in **Bangalore, India**. My experience at Sensei Technologies spans **Java and Spring Boot services, fintech APIs, batch processing, and enterprise integrations**.
 
-My focus is clear API contracts, well-defined microservice boundaries, event-driven workflows with Kafka, and thoughtful SQL schema and query design. Angular experience helps me connect backend decisions to the people using the software.
+I focus on clear API contracts, independent microservice boundaries, event-driven workflows with **Kafka**, and deliberate **SQL schema and query design**. Experience with Angular and delivery pipelines helps me reason across the full request-to-release path.
 
 ## Engineering toolkit
 
@@ -28,14 +28,14 @@ My focus is clear API contracts, well-defined microservice boundaries, event-dri
 | **Backend** | Java · Spring Boot · Spring MVC · REST APIs · Hibernate / JPA · Batch processing |
 | **Distributed systems** | Microservices · Apache Kafka · WebClient · Resilience4j |
 | **Data** | SQL · MySQL · Schema modeling · Query analysis · Index tuning |
-| **Delivery & quality** | Docker · Kubernetes · Jenkins · Git · JUnit · Postman |
+| **Delivery & quality** | Docker · Jenkins · Git · JUnit · Postman |
 | **Frontend** | Angular · TypeScript · JavaScript · HTML / CSS |
 
 ## Selected work
 
 ### [LRU Cache with TTL](https://github.com/puneethx47/lru-cache)
 
-A Java / Spring Boot study in cache behavior, concurrency, and performance measurement.
+A Java / Spring Boot learning project that makes cache behavior, concurrent access, and workload measurement tangible.
 
 - Named caches with bounded LRU eviction, per-entry TTL, and a shared background expiry scheduler.
 - Lock-protected access and hit, miss, and eviction counters.
@@ -45,7 +45,7 @@ A Java / Spring Boot study in cache behavior, concurrency, and performance measu
 
 ### [Banking Microservices — portfolio case study](https://puneethx47.github.io/portfolio/#projects)
 
-A development project exploring separate accounts, cards, and loans services, routed through Spring Cloud Gateway. Each service uses its own H2 database; a shared library standardizes API responses, and Docker Compose supports local development.
+A learning project using EazyBank sample domains to explore accounts, cards, and loans services behind Spring Cloud Gateway. Each service owns its H2 database and domain logic; shared response DTOs keep API envelopes consistent, while Docker Compose supports local development.
 
 **Java 21 · Spring Boot · Spring Cloud Gateway · H2 · Docker Compose**
 
@@ -61,7 +61,7 @@ Also built: [macOS-style calculator](https://github.com/puneethx47/mac-basic-cal
 
 ## Exploring next
 
-I'm expanding my Java backend focus into **Spring AI**, **retrieval-augmented generation (RAG)**, and **Model Context Protocol (MCP)** — learning how retrieval and tool integration can support useful AI features in backend applications.
+My next area of learning is **Spring AI**, **retrieval-augmented generation (RAG)**, and **Model Context Protocol (MCP)**: connecting Java services to retrieval workflows and useful AI tools.
 
 ## GitHub activity
 
