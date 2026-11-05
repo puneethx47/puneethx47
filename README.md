@@ -6,7 +6,7 @@
 
 Java, Spring Boot, and thoughtful API design for fintech and enterprise systems.
 
-[Portfolio](https://puneethx47.github.io/portfolio/) &nbsp; · &nbsp; [LinkedIn](https://www.linkedin.com/in/puneethr47/) &nbsp; · &nbsp; [Email](mailto:puneethr1954@gmail.com)
+[Portfolio](https://puneethx47.github.io/portfolio/) &nbsp; · &nbsp; [Résumé](https://puneethx47.github.io/portfolio/assets/Puneeth_R_Resume_Public.pdf) &nbsp; · &nbsp; [LinkedIn](https://www.linkedin.com/in/puneethr47/) &nbsp; · &nbsp; [Email](mailto:puneethr1954@gmail.com)
 
 ![Java](https://img.shields.io/badge/Java-243746?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-437F3B?style=flat-square&logo=springboot&logoColor=white)
