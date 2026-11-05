@@ -1,76 +1,71 @@
 <div align="center">
 
-# 👋 Hi, I'm Puneeth R
+# Puneeth R
 
-![](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=A970FF&center=true&vCenter=true&width=435&lines=Building+Microservices;Automating+the+Future;Crafting+Clean+Code)
+### Java Backend Engineer
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/puneethr47/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:puneethr1954@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+Building dependable backend systems for fintech and enterprise workflows.
 
-<img src="https://komarev.com/ghpvc/?username=puneethr47&label=Profile%20Views&color=blueviolet&style=for-the-badge" />
+[Portfolio](https://puneethx47.github.io/portfolio/) &nbsp; · &nbsp; [LinkedIn](https://www.linkedin.com/in/puneethr47/) &nbsp; · &nbsp; [Email](mailto:puneethr1954@gmail.com)
 
----
-
-> *"He who has a why to live can bear almost any how."* — **Friedrich Nietzsche**  
-> *(Or in dev terms: give me a complex problem, I'll find the architecture.)*
+![Java](https://img.shields.io/badge/Java-243746?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-437F3B?style=flat-square&logo=springboot&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-243746?style=flat-square&logo=apachekafka&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-397A87?style=flat-square&logo=mysql&logoColor=white)
 
 </div>
 
 ---
 
-## 🛠️ My Tech Stack
+I'm a software engineer based in **Bangalore, India**, with experience building **Java and Spring Boot services, fintech APIs, batch workflows, and enterprise integrations** at Sensei Technologies.
 
-| Category | Tools & Technologies |
+My focus is clear API contracts, well-defined microservice boundaries, event-driven workflows with Kafka, and thoughtful SQL schema and query design. Angular experience helps me connect backend decisions to the people using the software.
+
+## Engineering toolkit
+
+| Area | Technologies & practices |
 | :--- | :--- |
-| **Languages** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) |
-| **Backend & Frameworks** | ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white) ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white) |
-| **Frontend Ecosystem** | ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white) |
-| **Distributed Systems & DevOps** | ![Microservices](https://img.shields.io/badge/Architecture-Microservices-8A2BE2?style=flat-square) ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05033?style=flat-square&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) |
-| **Databases & Testing** | ![MySQL](https://img.shields.io/badge/MySQL-00758F?style=flat-square&logo=mysql&logoColor=white) ![JUnit](https://img.shields.io/badge/JUnit5-25A162?style=flat-square&logo=junit5&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) |
+| **Backend** | Java · Spring Boot · Spring MVC · REST APIs · Hibernate / JPA · Batch processing |
+| **Distributed systems** | Microservices · Apache Kafka · WebClient · Resilience4j |
+| **Data** | SQL · MySQL · Schema modeling · Query analysis · Index tuning |
+| **Delivery & quality** | Docker · Kubernetes · Jenkins · Git · JUnit · Postman |
+| **Frontend** | Angular · TypeScript · JavaScript · HTML / CSS |
 
----
+## Selected work
 
-## ⚡ Featured Projects
+### [LRU Cache with TTL](https://github.com/puneethx47/lru-cache)
 
-<table>
+A Java / Spring Boot study in cache behavior, concurrency, and performance measurement.
 
+- Named caches with bounded LRU eviction, per-entry TTL, and a shared background expiry scheduler.
+- Lock-protected access and hit, miss, and eviction counters.
+- Asynchronous load-testing endpoints with configurable workloads, throughput sampling, and p50 / p95 / p99 latency reporting.
 
-<tr>
+**Java · Spring Boot · Concurrency · REST APIs**
 
-<td width="50%">
+### [Banking Microservices — portfolio case study](https://puneethx47.github.io/portfolio/#projects)
 
-<h3>🎬 Keanu Reeves API Web Application</h3>
+A development project exploring separate accounts, cards, and loans services, routed through Spring Cloud Gateway. Each service uses its own H2 database; a shared library standardizes API responses, and Docker Compose supports local development.
 
-A frontend application consuming REST APIs to visualize and organize cinematic data into an interactive interface.
+**Java 21 · Spring Boot · Spring Cloud Gateway · H2 · Docker Compose**
 
-<img src="https://img.shields.io/badge/JavaScript_UI-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/REST_Client-blue?style=flat-square" />
+Project overview is public on my portfolio; the source repository is private.
 
-</td>
+### [Engineering portfolio](https://puneethx47.github.io/portfolio/)
 
-<td width="50%">
+A personal site presenting my experience, project architecture, and professional development. Built with HTML, CSS, and vanilla JavaScript, with reduced-motion support and an in-page résumé viewer that omits my phone number.
 
-<h3>🖥️ macOS Native-Style Calculator</h3>
+[Source code](https://github.com/puneethx47/portfolio) · **HTML · CSS · JavaScript · GitHub Pages**
 
-A lightweight desktop-style calculator built with clean UI architecture and responsive design principles.
+Also built: [macOS-style calculator](https://github.com/puneethx47/mac-basic-calculator) — a small Electron app for basic arithmetic with a native-style interface.
 
-<img src="https://img.shields.io/badge/CSS_Architecture-1572B6?style=flat-square&logo=css3" />
-<img src="https://img.shields.io/badge/UI_Design-UX-pink?style=flat-square" />
+## Exploring next
 
-</td>
+I'm expanding my Java backend focus into **Spring AI**, **retrieval-augmented generation (RAG)**, and **Model Context Protocol (MCP)** — learning how retrieval and tool integration can support useful AI features in backend applications.
 
-</tr>
-</table>
+## GitHub activity
 
+[![Public repositories](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fpuneethx47&query=%24.public_repos&label=Public%20repos&style=flat-square&color=397A87)](https://github.com/puneethx47?tab=repositories)
+[![Latest LRU cache commit](https://img.shields.io/github/last-commit/puneethx47/lru-cache?style=flat-square&label=LRU%20cache%20updated&color=437F3B)](https://github.com/puneethx47/lru-cache/commits/main/)
 
-<div align="center">
-
-☕ Driven by code, metrics, and caffeine. Let's build something scalable.
-
-</div>
+[Explore my contributions →](https://github.com/puneethx47?tab=overview)
