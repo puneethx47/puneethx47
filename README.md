@@ -2,11 +2,11 @@
 
 # Puneeth R
 
-### Java Backend Engineer
+### Java Backend Engineer · Exploring AI Agents & MCP
 
-Java, Spring Boot, and thoughtful API design for fintech and enterprise systems.
+Java, Spring Boot, Kafka, and thoughtful API design—expanding into Python-based AI agents and MCP integrations.
 
-[Portfolio](https://puneethx47.github.io/portfolio/) &nbsp; · &nbsp; [Résumé](https://puneethx47.github.io/portfolio/assets/Puneeth_R_Resume_Public.pdf) &nbsp; · &nbsp; [LinkedIn](https://www.linkedin.com/in/puneethr47/) &nbsp; · &nbsp; [Email](mailto:puneethr1954@gmail.com)
+[Portfolio](https://puneethx47.github.io/portfolio/) &nbsp; · &nbsp; [Résumé](https://puneethx47.github.io/portfolio/assets/Puneeth_R_Resume_Public.pdf) &nbsp; · &nbsp; [LinkedIn](https://www.linkedin.com/in/puneethr47/)
 
 ![Java](https://img.shields.io/badge/Java-243746?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-437F3B?style=flat-square&logo=springboot&logoColor=white)
@@ -30,38 +30,56 @@ I focus on clear API contracts, independent microservice boundaries, event-drive
 | **Data** | SQL · MySQL · Schema modeling · Query analysis · Index tuning |
 | **Delivery & quality** | Docker · Jenkins · Git · JUnit · Postman |
 | **Frontend** | Angular · TypeScript · JavaScript · HTML / CSS |
+| **AI project work** | Python · OpenAI Agents SDK · LangGraph · MCP · Gradio · FastAPI |
 
-## Selected work
+## Backend Projects
 
 ### [LRU Cache with TTL](https://github.com/puneethx47/lru-cache)
 
-A Java / Spring Boot learning project that makes cache behavior, concurrent access, and workload measurement tangible.
+A Java / Spring Boot project exploring bounded caches, expiration, concurrent access, and workload measurement.
 
-- Named caches with bounded LRU eviction, per-entry TTL, and a shared background expiry scheduler.
-- Lock-protected access and hit, miss, and eviction counters.
-- Asynchronous load-testing endpoints with configurable workloads, throughput sampling, and p50 / p95 / p99 latency reporting.
+- Named caches with LRU eviction, per-entry TTL, and a shared expiry scheduler.
+- Lock-coordinated reads and writes, with hit, miss, and eviction counters.
+- Asynchronous workload endpoints reporting throughput and p50 / p95 / p99 latency.
 
 **Java · Spring Boot · Concurrency · REST APIs**
 
-### [Banking Microservices — portfolio case study](https://puneethx47.github.io/portfolio/#projects)
+### [Banking Microservices — architecture case study](https://puneethx47.github.io/portfolio/#projects)
 
-A learning project using EazyBank sample domains to explore accounts, cards, and loans services behind Spring Cloud Gateway. Each service owns its H2 database and domain logic; shared response DTOs keep API envelopes consistent, while Docker Compose supports local development.
+An accounts, cards, and loans system using the EazyBank sample domains to explore service boundaries, API routing, and independent data ownership.
+
+- Spring Cloud Gateway routes requests to independently scoped services.
+- Each service owns its H2 database and domain logic.
+- Shared response DTOs and Docker Compose support consistent local integration.
 
 **Java 21 · Spring Boot · Spring Cloud Gateway · H2 · Docker Compose**
 
-Project overview is public on my portfolio; the source repository is private.
+The case study is public on my portfolio; the source repository is private.
 
-### [Engineering portfolio](https://puneethx47.github.io/portfolio/)
+## AI Projects
 
-A personal site presenting my experience, project architecture, and professional development. Built with HTML, CSS, and vanilla JavaScript, with reduced-motion support and an in-page résumé viewer that omits my phone number.
+Python-based portfolio projects exploring tool orchestration, agent workflows, and MCP integrations. Source repositories are private.
 
-[Source code](https://github.com/puneethx47/portfolio) · **HTML · CSS · JavaScript · GitHub Pages**
+### MCP Trading Simulator
 
-Also built: [macOS-style calculator](https://github.com/puneethx47/mac-basic-calculator) — a small Electron app for basic arithmetic with a native-style interface.
+A portfolio implementation of a multi-agent trading simulation, with MCP account and market services, a FastAPI backend, and Gradio and Vite dashboards.
 
-## Exploring next
+- Dashboards display balances, holdings, transaction history, and simulated market data.
+- A read-only FastAPI service feeds the frontend through a development proxy.
+- Dashboard access is separate from model execution and the trading scheduler.
 
-My next area of learning is **Spring AI**, **retrieval-augmented generation (RAG)**, and **Model Context Protocol (MCP)**: connecting Java services to retrieval workflows and useful AI tools.
+**Python · MCP · OpenAI Agents SDK · FastAPI · Gradio · TypeScript**
+
+Current scope: a local simulation dashboard and API integration.
+
+### In progress
+
+- **Deep Research Assistant:** planning, search, and report-writing agents with a Gradio interface. End-to-end research validation is in progress.
+- **Browser Sidekick:** browser tools, file operations, and iterative evaluation against success criteria. Complete browser-task verification is in progress.
+
+## Current direction
+
+I’m connecting my Java backend experience with **AI tool orchestration and MCP**, while continuing to explore **Spring AI** and **retrieval-augmented generation**. My focus is on clear service contracts, observable behavior, and small workflows that can be demonstrated and tested.
 
 ## GitHub activity
 
